@@ -24,4 +24,20 @@ title('Multiple Decay Rates')
 set(H1,'LineStyle','--')
 set(H2,'LineStyle',':')
 
+%%
+%2三维立体图
+t = 0:pi/50:10*pi;
+plot3(sin(t),cos(t),t)  %plot3绘制三维
+xlabel('sin(t)')
+ylabel('cos(t)')
+zlabel('t')
+grid on   %增加网格线更美观
+axis square %起到限制的作用
+
+
+
+
+
+
+  
 
